@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: orangered;
+}
+
+canvas {
+    animation-name: Tiger;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Tiger {
+  from {box-shadow: 1px 1px 38px rgb(45, 122, 223);}
+  to {box-shadow: 1px 1px 38px rgba(162, 255, 12, 0.562);}
+}
